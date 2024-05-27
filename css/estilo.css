@@ -1,0 +1,104 @@
+/* Comentarios en hoja de estilo */
+body{
+	margin:0;
+}
+header{
+	background-color: #000;
+	color:#fff;
+	text-align: center;
+	padding: 5px;
+}
+footer{
+	background-color: #000;
+	color:#fff;
+	text-align: center;
+	padding: 5px;
+}
+main{
+	background-color: #e1e1e1;
+	min-height: 100px;
+	padding:30px;
+}
+nav{
+	text-align: center;
+}
+nav ul{
+	list-style: none;
+}
+nav ul li{
+	display:inline-block;
+}
+nav ul li a{
+	background-color: #000;
+	color:#fff;
+	width:100px;
+	display:block;
+	text-decoration: none;
+	padding: 5px;
+	border-radius:5px;
+}
+nav ul li a:hover{
+	background-color: #f00;
+}
+h2{
+	color:#00f;
+}
+/*etiqueta p */
+p{
+	border:1px solid #00f;
+	padding: 20px;
+	color: #f00;
+	text-align: justify;
+	font-family: Verdana;
+}
+/* clase .p */
+.p{
+	background-color: yellow;
+	font-family: Arial;
+	padding: 30px;
+}
+/* identificador #p */
+#p{
+	background-color: #0f0;
+	color:#00f;
+}
+.img1{
+	width:30%;
+	margin:10px auto;
+	display:block;
+}
+form{
+	background-color: #00f;
+	border:2px solid #00f;
+	border-radius:10px;
+	padding: 20px;
+	width:350px;
+	margin:0 auto;
+	color:#fff;
+}
+
+.label{
+	display:inline-block;
+	width:100px;
+	vertical-align: top;
+}
+div{
+	margin:5px;
+}
+.centro{
+	text-align: center;
+}
+textarea{
+	height: 80px;
+}
+.titForm{
+	text-align: center;
+	margin:0;
+}
+hr{
+	margin-bottom:20px; 
+}
+fieldset{
+	margin:10px;
+	border-radius:10px;
+}

@@ -1,0 +1,102 @@
+<!doctype html>
+<html>
+<head>
+   <title> Maqueta </title>
+   <meta charset="utf-8">
+   <link rel="stylesheet" href="css/estilo.css">
+   <script src="js/validacion.js"></script>
+</head>
+<body>
+<div id="contenedor">
+<header>
+   <h1> Tema Principal </h1>
+</header>
+<nav>
+   <ul>
+	  <li> <a href="index.html"> Inicio </a> </li>
+	  <li> <a href="pagina2.html"> Página 2 </a> </li>
+	  <li> <a href="pagina3.html"> Página 3 </a> </li>
+   </ul>
+</nav>
+<main>
+   <h2> Formulario </h2>
+
+   <form name="form1" id="form1" method="get" action="#" onSubmit = "return valida();">
+      <h3 class="titForm"> Texto de título formulario </h3>
+      <hr>
+   <fieldset>
+         <legend> Texto del legend  </legend>
+      <div>
+         <label class="label" for="nombre">Nombre</label>
+         <input type="text" name="nombre" id="nombre">
+      </div>
+      <div>
+         <label class="label" for="apellido">Apellido</label>
+         <input type="text" name="apellido" id="apellido">
+      </div>
+      <div>
+         <label class="label" for="email"> Email </label>
+         <input type="email" name="email" id="email">
+      </div>
+   </fieldset>
+   <fieldset>
+      <legend> Texto en el segundo legend </legend>
+      <div>
+         <label class="label" for="clave"> Clave </label>
+         <input type="password" name="clave" id="clave">
+      </div>
+      <div>
+         <label class="label" for="cargas"> Cargas </label>
+         <input type="number" min="0" max="10" name="cargas" id="cargas">
+      </div>
+      <div>
+         <label class="label" for="fecha"> Fecha </label>
+         <input type="date" name="fecha" id="fecha">
+      </div>
+      <div>
+         <label class="label" for=comuna> Comuna </label>
+         <select name="comuna" id="comuna">
+               <option value="0"> Seleccione </option>
+               <option value="1"> Macul </option>
+               <option value="2"> San Joaquin </option>
+               <option value="3"> Puente Alto</option>
+               <option value="4"> Ñuñoa </option>
+         </select>
+      </div>
+      <div>
+            <label class="label"> Marque un color </label>
+            <input type="radio" name="color" id="rojo" value="rojo"> 
+            <label for="rojo">Rojo</label>
+            <input type="radio" name="color" id="verde" value="verde"> 
+            <label for="verde">Verde</label>
+            <input type="radio" name="color" id="azul" value="azul"> 
+            <label for="azul">Azul</label>
+      </div>
+      <div>
+            <label class="label"> Deporte </label>
+            <input type="checkbox" name="deporte" id="futbol" value="futbol">
+            <label for="futbol"> Fútbol </label>
+            <input type="checkbox" name="deporte" id="ping-pong" value="ping-pong">
+            <label for="ping-pong"> Ping-pong</label>
+      </div>
+
+      <div>
+            <label class="label" for="obs"> Observaciones </label>
+            <textarea name="obs" id="obs"></textarea>
+      </div>
+   </fieldset>
+      <div class="centro">
+         <input type="submit" name="btnEnviar" id="btnEnviar" value="Enviar">
+         <input type="reset" name="btnLimpiar" id="btnLimpiar" value="Limpiar">
+      </div>
+   </form>
+
+
+
+</main>
+<footer>
+   <span> SuryaQBZ </span>
+</footer>
+</div>
+</body>
+</html>
